@@ -1,0 +1,15 @@
+<section class="hero is-info">
+  <h2 class="title">Welcome!</h2>
+  <h4 class="subtitle">Here are your Contacts:</h2>
+</section>
+  <a href="#" class="box" ng-repeat="contact in getContacts">
+    <div class="tile">
+      <article class="tile is-child notification is-info">
+        <p class="title"> {{ contact.name }} </p>
+        <p class="subtitle"> {{ contact.location }} </p>
+        <figure class="image is-64x64">
+          <img src="http://placehold.it/128x128" alt="image"/>
+        </figure>
+      </article>
+    </div>
+  </a>

@@ -1,7 +1,6 @@
 function Config ($stateProvider, $urlRouterProvider) {
   // Using this allows the url to transfer to /#/ if it isn't recognized
   $urlRouterProvider.otherwise('/');
-
   $stateProvider
     .state('add', {
       url: '/add',
@@ -15,8 +14,8 @@ function Config ($stateProvider, $urlRouterProvider) {
     })
     .state('home', {
       url: '/',
-      templateUrl: '',
-      controller: ''
+      templateUrl: 'templates/home.tpl.html',
+      controller: 'HomeController'
     })
   ;
 }

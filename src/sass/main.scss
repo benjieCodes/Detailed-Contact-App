@@ -1,1 +1,19 @@
 @import "bulma";
+
+.hero {
+  padding: 30px;
+}
+
+.box {
+  margin-bottom: 0;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.box .title {
+  font-size: 20px;
+}
+
+.box .subtitle {
+  font-size: 15px;
+}
