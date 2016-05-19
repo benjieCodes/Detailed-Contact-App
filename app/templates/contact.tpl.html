@@ -1,0 +1,16 @@
+<div class="notification">
+  <div class="card">
+    <button class="delete" ng-click="deleteContact(singleContact._id)"></button>
+   <div class="card-image">
+     <figure class="image is 400x400">
+       <img src="{{singleContact.imageUrl}}" alt="Image">
+     </figure>
+    <div class="card-content">
+      <p>{{singleContact.name}}</p>
+      <p>{{singleContact.email}}</p>
+      <p>{{singleContact.phone}}</p>
+      <p>{{singleContact.location}}</p>
+    </div>
+   </div>
+  </div>
+</div>

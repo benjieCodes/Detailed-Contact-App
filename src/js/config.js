@@ -8,9 +8,9 @@ function Config ($stateProvider, $urlRouterProvider) {
       controller: 'AddContactController'
     })
     .state('contacts', {
-      url: '/contacts',
-      templateUrl: '',
-      controller: ''
+      url: '/contacts/:contactID',
+      templateUrl: 'templates/contact.tpl.html',
+      controller: 'ContactController'
     })
     .state('home', {
       url: '/',

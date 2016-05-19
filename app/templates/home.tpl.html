@@ -2,7 +2,8 @@
   <h2 class="title">Welcome!</h2>
   <h4 class="subtitle">Here are your Contacts:</h2>
 </section>
-  <a href="#" class="box" ng-repeat="contact in getContacts">
+ <div class="container" ng-repeat="contact in getContacts">
+  <a href="/#/contacts/{{contact._id}}" class="box">
     <div class="tile">
       <article class="tile is-child notification is-info">
         <p class="title"> {{ contact.name }} </p>
@@ -13,3 +14,4 @@
       </article>
     </div>
   </a>
+</div>
